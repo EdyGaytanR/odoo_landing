@@ -1,0 +1,28 @@
+:root {
+  --mainblue: #1d89ff;
+  --white: #ffffff;
+}
+.fs-7{
+    font-size: 10px;
+}
+nav.navbar .border-bottom{
+        border-bottom: 1px solid #ffffff5c!important;
+}
+.logo_img{
+    width: 100px;
+}
+
+section#main_banner{
+    background-color: var(--mainblue);
+    min-height: 100vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+}
+@media (width<= 767px){
+    section#main_banner{
+        clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    }
+} 
+
+.card-holder{
+    border-bottom-right-radius: 25%;
+}
