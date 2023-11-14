@@ -1,13 +1,37 @@
 :root {
   --mainblue: #1d89ff;
   --white: #ffffff;
+  --purple: #161349;
 }
+
 .fs-7{
     font-size: 10px;
 }
-nav.navbar .border-bottom{
-        border-bottom: 1px solid #ffffff5c!important;
+
+i.fas,i.far{
+    cursor: pointer;
 }
+
+.left-n15{
+    left: -15%;
+}
+
+.left-15{
+    left: 15%;
+}
+
+.card-header.p-1{
+    background-color: #ffffff;
+}
+
+nav.navbar {
+    background-color: var(--mainblue);
+}
+
+nav.navbar .border-bottom{
+    border-bottom: 1px solid #ffffff5c!important;
+}
+
 .logo_img{
     width: 100px;
 }
@@ -24,5 +48,65 @@ section#main_banner{
 } 
 
 .card-holder{
-    border-bottom-right-radius: 25%;
+    border-bottom-right-radius: 15%;
+    
+}
+
+.card-item{
+    background-image: url(../imgs/dottedmap-white.png);
+    background-color: var(--purple);
+    border-radius: 15px;
+}
+
+.ligth-purple{
+    background-color: #1e1349de;
+    border-radius: 15px;
+}
+.nav-pills .nav-link {
+    border-bottom: 1px solid #00000082;
+    border-radius: 0;
+    padding: 10px 2px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.img-video button{
+    top: 5%;
+    left: 5%;
+}
+
+.circle-person:hover .col.p-0.position-relative {
+    left: 0;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.circle-person .col.p-0.position-relative {
+    transition: all .5s ease;
+}
+
+.purplebg, #final_section, footer{
+    background-color: var(--purple);
+}
+
+.br-bubble{
+    border-radius: 0 50px 0 50px;
+}
+
+.slick-prev:before, .slick-next:before {
+    opacity: 1;
+    color: #161349;
+}
+
+.accordion>.card:not(:last-of-type) {
+    margin-bottom: 15px;
+    border: 1px solid #e3e3e3;
+}
+
+#final_section{
+    clip-path: polygon(0 20%, 100% 1%, 100% 100%, 0% 100%);
 }
