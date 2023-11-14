@@ -26,6 +26,10 @@ i.fas,i.far{
 
 nav.navbar {
     background-color: var(--mainblue);
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 100%;
 }
 
 nav.navbar .border-bottom{
